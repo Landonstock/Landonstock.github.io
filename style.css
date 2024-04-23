@@ -1,0 +1,207 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.show {
+  display: block;
+}
+
+.noshow {
+  display: none;
+}
+
+.picturebox1 {
+  width: 233px;
+  height: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.picturebox2 {
+  width: 350px;
+  height: 233px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.picturebox3 {
+  width: 300px;
+  height: 325px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.images {
+  width: 100%;
+  height: 100%;
+}
+
+
+.parent {
+display: grid;
+grid-template-columns: repeat(20, 1fr);
+grid-template-rows: repeat(20, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+  height: 100%;
+  width: 100%;
+}
+.menuholder { 
+  grid-area: 1 / 1 / 4 / 21;
+  background-color: maroon;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  justify-items: center;
+  align-items: center; 
+  padding: 5px;
+}
+.AboutMe { 
+  grid-area: 2 / 3 / 3 / 4;
+}
+.Experience { 
+  grid-area: 2 / 6 / 3 / 7;
+}
+.Education {
+  grid-area: 2 / 9 / 3 / 10;
+}
+.Hobbies { 
+  grid-area: 2 / 12 / 3 / 13;
+  font-size: 20px;
+}
+.References { 
+  grid-area: 2 / 15 / 3 / 16;
+}
+.FunFacts { 
+  grid-area: 2 / 18 / 3 / 19;
+}
+
+.menuItem {
+  background-color: gray;
+  color: white;
+  font-family: Arial, sans-serif; 
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  transition: 0.3s;
+  background-color: #333333
+}
+
+
+
+
+.div8 { 
+  grid-area: 4 / 1 / 21 / 21;
+  border: 1px solid white; 
+}
+.div9 { 
+  grid-area: 5 / 2 / 20 / 10; 
+  border: 1px solid #4d22b2;
+  display: flex;
+  justify-content: center;
+}
+.div10 { 
+  grid-area: 5 / 10 / 20 / 20; 
+  border:  1px solid #e63b7a;
+  
+}
+.div11 { 
+  xxxgrid-area: 6 / 3 / 19 / 8;
+  grid-area: 17 / 3 / 20 / 9;
+  border: 1px solid #0061fe;
+  position: relative;  
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.div12 {
+  grid-area: 6 / 2 / 17 / 10; 
+  border: 1px solid #b92d5d;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutmeinfo { 
+  grid-area: 5 / 10 / 20 / 20; 
+  border: 1px solid white;
+}
+.div14 { 
+  grid-area: 5 / 10 / 20 / 20;
+  border: 1px solid black;
+}
+
+.div15 { 
+  grid-area: 5 / 10 / 20 / 20;
+  border: 1px solid #e4ef65;
+}
+
+.hobbies { 
+  grid-area: 5 / 10 / 20 / 20;
+  border: 1px solid #4e7a27;
+}
+
+.div17 { 
+  grid-area: 5 / 10 / 20 / 20;
+  border: 1px solid #4e7a27
+}
+
+.div18 { 
+  grid-area: 5 / 10 / 20 / 20;
+  border: 1px solid #4e7a27
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24,
+}
+
+.schoolheadshot {
+  height: 150px;
+  width: 100px;
+}
+
+.familyjpeg {
+  height: 100px;
+  width: 150px;
+}
+
+.RomFlag {
+  height: 150px;
+  width: 100px;
+}
+
+.missonary {
+  height: 150px;
+  width: 100px;
+}
+
+.soccershot {
+  height: 150px;
+  width: 150px;
+}
+
+.hideit {
+  display: none;
+}
+
+.showit {
+  display: block;
+}
